@@ -1,0 +1,13 @@
+body { font-family: sans-serif; padding: 20px; }
+h1 { text-align: center; }
+#malla { display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; }
+.semestre { border: 1px solid #ccc; border-radius: 8px; padding: 10px; width: 220px; }
+.semestre h2 { text-align: center; }
+.subject {
+  margin: 5px 0; padding: 8px;
+  border-radius: 4px; cursor: pointer;
+  text-align: center; user-select: none;
+}
+.locked { background: #f0f0f0; color: #aaa; cursor: not-allowed; }
+.unlocked { background: #e0f7fa; color: #00796b; }
+.approved { background: #00796b; color: white; cursor: default; }
