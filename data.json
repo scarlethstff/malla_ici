@@ -1,0 +1,60 @@
+{
+  "Álgebra 1": { "prereqs": [] },
+  "Física 1": { "prereqs": [] },
+  "Cálculo 1": { "prereqs": [] },
+  "Química General 1": { "prereqs": [] },
+  "Desarrollo de Habilidades de Gestión": { "prereqs": [] },
+
+  "Álgebra 2": { "prereqs": ["Álgebra 1"] },
+  "Física 2": { "prereqs": ["Física 1"] },
+  "Cálculo 2": { "prereqs": ["Cálculo 1"] },
+  "Química General 2": { "prereqs": ["Química General 1"] },
+  "Introducción a la Innovación en Ingeniería": { "prereqs": ["Desarrollo de Habilidades de Gestión"] },
+
+  "Cálculo 3": { "prereqs": ["Álgebra 2", "Cálculo 2"] },
+  "Ecuaciones Diferenciales": { "prereqs": ["Álgebra 2", "Cálculo 2"] },
+  "Programación": { "prereqs": ["Álgebra 1"] },
+  "Estadística": { "prereqs": ["Cálculo 2", "Álgebra 1"] },
+  "Liderazgo y Trabajo en Equipo": { "prereqs": ["Desarrollo de Habilidades de Gestión"] },
+
+  "Inferencia Estadística y Muestreo": { "prereqs": ["Estadística"] },
+  "Cálculo Numérico": { "prereqs": ["Cálculo 3", "Programación"] },
+  "Mecánica": { "prereqs": ["Cálculo 3", "Física 2"] },
+  "Termodinámica": { "prereqs": ["Física 2"] },
+  "Modelación de Sistemas": { "prereqs": [] },
+
+  "Inglés Comunicativo Nivel Básico": { "prereqs": ["Inglés Comunicativo Nivel Básico"] },
+
+  "Mecánica de Fluidos": { "prereqs": ["Termodinámica", "Mecánica"] },
+  "Máquinas Eléctricas": { "prereqs": ["Física 2", "Ecuaciones Diferenciales"] },
+  "Microeconomía": { "prereqs": ["Estadística"] },
+  "Análisis Estadístico Multivariado": { "prereqs": ["Inferencia Estadística y Muestreo"] },
+  "Optimización 1": { "prereqs": ["Cálculo 3", "Programación"] },
+
+  "Transferencia de Calor": { "prereqs": ["Mecánica de Fluidos", "Cálculo Numérico"] },
+  "Administración": { "prereqs": ["Modelación de Sistemas"] },
+  "Macroeconomía": { "prereqs": ["Microeconomía"] },
+  "Simulación": { "prereqs": ["Análisis Estadístico Multivariado", "Optimización 1"] },
+  "Optimización 2": { "prereqs": ["Optimización 1"] },
+
+  "Procesos Industriales": { "prereqs": ["Transferencia de Calor"] },
+  "Marketing": { "prereqs": ["Administración"] },
+  "Contabilidad General y de Costos": { "prereqs": ["Administración"] },
+  "Gestión Estratégica y Control de Gestión": { "prereqs": ["Administración"] },
+
+  "Planificación y Control de Producción": { "prereqs": ["Simulación"] },
+  "Ingeniería Económica": { "prereqs": ["Contabilidad General y de Costos"] },
+  "Finanzas": { "prereqs": ["Contabilidad General y de Costos"] },
+  "Gestión y Control de la Calidad": { "prereqs": ["Análisis Estadístico Multivariado"] },
+  "Tecnologías de la Información": { "prereqs": ["Modelación de Sistemas"] },
+
+  "Diseño de Sistemas de Producción": { "prereqs": ["Optimización 1"] },
+  "Evaluación de Proyectos": { "prereqs": ["Ingeniería Económica"] },
+  "Gestión de Personas y Comportamiento Organizacional": { "prereqs": ["Administración"] },
+
+  "Dirección y Control de Proyectos": { "prereqs": ["Evaluación de Proyectos"] },
+  "Taller de Emprendimiento": { "prereqs": ["Evaluación de Proyectos"] },
+  "Logística": { "prereqs": ["Simulación"] },
+
+  "Memoria de Título / Práctica Profesional": { "prereqs": [] }
+}
