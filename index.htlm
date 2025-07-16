@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Malla Interactiva – Ingeniería Civil Industrial</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Malla interactiva por semestre</h1>
+  <div id="malla"></div>
+  <script src="script.js"></script>
+</body>
+</html>
